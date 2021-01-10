@@ -1,0 +1,60 @@
+.main-head {
+  min-height: 10vh;
+  background: $primary-color;
+  opacity: 0.8;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+
+.main-head nav {
+  max-height: 10vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  flex: 1 1 40rem;
+}
+
+.logo img {
+  height: 100%;
+  max-height: 10vh;
+  padding: 0.5rem 0rem;
+}
+
+.nav-links {
+  flex: 1 1 40rem;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-links a {
+  color: white;
+  padding: 1.5rem 2.5rem;
+}
+
+.nav-links .active {
+  background: white;
+  border-radius: 4rem;
+  color: $primary-color;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    flex: 7 1 20rem;
+    a {
+      font-size: 80%;
+    }
+  }
+  .logo {
+    flex: 1 1 15rem;
+  }
+}

@@ -1,0 +1,135 @@
+.section-contact {
+  position: relative;
+  height: 50vh;
+}
+
+.contact-text {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  max-width: 50%;
+  h1 {
+    margin-bottom: 4rem;
+  }
+}
+
+.contact-info {
+  margin: 4rem 0rem 0rem 10rem;
+
+  a {
+    display: flex;
+    margin: 1rem 0rem;
+    align-items: center;
+    &:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      margin-right: 2rem;
+      max-width: 3rem;
+    }
+  }
+}
+
+.contact-form {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0rem;
+  background: white;
+  -webkit-box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+  box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+
+  h3 {
+    text-align: left;
+    width: 80%;
+    margin: 4rem auto;
+  }
+}
+
+.input-contact {
+  border: 2px solid;
+  border-color: $secondary-color;
+  background: white;
+  padding: 1rem 2rem;
+  width: 80%;
+  margin: 1rem auto;
+
+  &::placeholder {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+  }
+}
+
+input[type="submit"] {
+  margin-top: 4rem;
+  padding: 1.5rem;
+  width: 70%;
+  border: none;
+  background: $secondary-color;
+  font-weight: lighter;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.contact-footer {
+  background: $primary-color;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 35vh;
+  color: white;
+  z-index: -3;
+  display: flex;
+}
+
+.footer-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  h3 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.7rem;
+    margin: 0.5rem 0rem;
+  }
+
+  ul {
+    margin: 2rem 0rem;
+  }
+  a {
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  span {
+    margin-top: 0.8rem;
+  }
+}
+
+iframe {
+  margin: 2rem 4rem;
+  width: 20%;
+  height: 30vh;
+}
+
+#copyright {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  margin: 2rem auto;
+}

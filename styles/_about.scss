@@ -1,0 +1,56 @@
+.section-about .fp-tableCell {
+  display: flex;
+
+  .about-us-image {
+    flex: 1 1 0rem;
+    object-fit: cover;
+    height: 100%;
+    width: 20vw;
+  }
+}
+
+.text-about-us {
+  flex: 5 1 0rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 70%;
+
+  h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+
+.bullet-point {
+  margin: 2rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    height: 6vw;
+    flex: 1 1 5rem;
+    padding-left: 5rem;
+  }
+}
+
+.bullet-point-text {
+  flex: 7 1 10rem;
+  padding: 0rem 5rem 0rem 0rem;
+
+  h2 {
+    padding: 1.5rem 0rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-us-image {
+    display: none;
+  }
+
+  .bullet-point {
+    background: rgb(231, 231, 231);
+  }
+}

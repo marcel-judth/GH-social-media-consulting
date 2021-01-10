@@ -1,0 +1,138 @@
+.section-home-body {
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  width: 90%;
+  margin: auto;
+}
+.section-home {
+  background: linear-gradient(white, rgb(255, 244, 224));
+}
+
+.home-headers {
+  flex: 1 1 0rem;
+  align-items: center;
+  .home-telephone-section {
+    margin: 5rem 0rem 0rem 5rem;
+    display: flex;
+    align-items: center;
+    img {
+      cursor: pointer;
+      transition: transform 1s;
+      width: 10vw;
+      max-width: 70px;
+      &:hover {
+        transform: scale(1.4);
+      }
+    }
+    svg {
+      margin: 0rem 3rem;
+      width: 10vw;
+    }
+  }
+}
+
+.svg-home-section {
+  flex: 1 1 0rem;
+  width: 30vw;
+  height: 70vh;
+}
+
+svg {
+  overflow: visible;
+}
+
+.footer-home svg {
+  color: $primary-color;
+}
+
+.footer-home {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  height: 10vh;
+  background: white;
+}
+
+.footer-home img {
+  border-color: $primary-color;
+  margin: 0rem 5rem;
+  height: 3vh;
+  cursor: pointer;
+  transition: transform 1s;
+  &:hover {
+    transform: scale(1.4);
+  }
+}
+
+.footer-home {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#Path_105,
+#Path_95,
+#Path_119 {
+  animation: social-media-facebook-icon 1.5s ease infinite alternate 0.5s;
+}
+
+#Path_96,
+#Path_106,
+#Path_118 {
+  animation: social-media-twitter-icon 1.5s ease infinite alternate;
+}
+
+#Path_97,
+#Path_94,
+#Path_107,
+#Path_109,
+#Path_108 {
+  animation: social-media-instagram-icon 1.5s ease infinite alternate 0.7s;
+  z-index: 300;
+}
+
+@keyframes social-media-facebook-icon {
+  from {
+    transform: translate(-30.5%, -20%);
+  }
+  to {
+    transform: translate(-30.5%, -25%);
+  }
+}
+
+@keyframes social-media-twitter-icon {
+  from {
+    transform: translate(-30%, -20%);
+  }
+  to {
+    transform: translate(-30%, -25%);
+  }
+}
+
+@keyframes social-media-instagram-icon {
+  from {
+    transform: translate(-30%, -20%);
+  }
+  to {
+    transform: translate(-30%, -25%);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  h1 {
+    font-size: calc(1.5vh + 3vw);
+  }
+  h2 {
+    font-size: calc(1vh + 1vw);
+  }
+  .svg-home-section {
+    height: 40vh;
+    width: 40vh;
+  }
+
+  .section-home-body {
+    flex-direction: column-reverse;
+  }
+}
