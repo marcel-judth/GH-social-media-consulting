@@ -4,6 +4,7 @@ new fullpage('#fullpage', {
     anchors: ['home', 'about', 'offers', 'contact'],
     autoScrolling: true,
     navigation: true,
+    slidesNavigation: true,
     scrollingSpeed: 1500,
 })
 

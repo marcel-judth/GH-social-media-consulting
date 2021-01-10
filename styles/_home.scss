@@ -5,6 +5,7 @@
   width: 90%;
   margin: auto;
 }
+
 .section-home {
   background: linear-gradient(white, rgb(255, 244, 224));
 }
@@ -120,7 +121,7 @@ svg {
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   h1 {
     font-size: calc(1.5vh + 3vw);
   }

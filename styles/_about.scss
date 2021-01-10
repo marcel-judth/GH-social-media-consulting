@@ -30,9 +30,9 @@
   justify-content: center;
   align-items: center;
   img {
-    height: 6vw;
-    flex: 1 1 5rem;
-    padding-left: 5rem;
+    width: 10vh;
+    max-width: 50px;
+    margin: 0rem 3rem;
   }
 }
 
@@ -52,5 +52,19 @@
 
   .bullet-point {
     background: rgb(231, 231, 231);
+    padding: 2rem 0rem;
+
+    -webkit-box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+    box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
+
+    p {
+      display: none;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      transition-duration: 1s;
+    }
   }
 }
