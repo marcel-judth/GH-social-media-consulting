@@ -32,7 +32,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: calc(2vh + 1.5vw);
   color: #646363;
 }
 
@@ -169,7 +169,7 @@ a {
   transition: -webkit-transform 1s;
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
-  width: 10vw;
+  width: 10vh;
   max-width: 70px;
 }
 
@@ -452,6 +452,16 @@ svg {
 
 .section-offers h1 {
   text-align: center;
+  margin-top: 1rem;
+}
+
+.offers-content {
+  height: 90vh !important;
+  margin-top: 10vh;
+}
+
+.offer-cards {
+  height: auto;
 }
 
 .cards-slides {
@@ -467,10 +477,10 @@ svg {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  max-width: 20%;
+  max-width: 30%;
   border-radius: 2rem;
-  padding: 3rem 1rem;
-  margin: 4rem 2rem;
+  padding: 1rem 1rem;
+  margin: 2rem 2rem;
   -webkit-box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
   box-shadow: 6px 15px 28px -2px rgba(0, 0, 0, 0.55);
   cursor: pointer;
@@ -484,7 +494,7 @@ svg {
 }
 
 .card h3 {
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 
 .card h2 {
@@ -492,7 +502,7 @@ svg {
 }
 
 .card img {
-  max-height: 10rem;
+  max-height: 8rem;
 }
 
 .card span {
@@ -508,6 +518,10 @@ svg {
 
 .fp-controlArrow {
   display: none;
+}
+
+.fp-slides {
+  overflow: visible !important;
 }
 
 .fp-slidesNav {
@@ -533,7 +547,7 @@ svg {
   height: auto !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1270px) {
   .cards-without-slides {
     display: none;
   }
@@ -542,6 +556,18 @@ svg {
   }
   .cards-slides {
     display: block;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .card img {
+    width: 4rem;
+  }
+}
+
+@media screen and (max-height: 530px) {
+  .card img {
+    display: none;
   }
 }
 
@@ -815,6 +841,9 @@ iframe {
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

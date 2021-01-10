@@ -1,6 +1,6 @@
 $header1: calc(3vh + 3vw);
 $header2: 3rem;
-$header3: 2.5rem;
+$header3: calc(2vh + 1.5vw);
 $header4: 2rem;
 $text: calc(2vh);
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
@@ -19,5 +19,9 @@ $gray-text: #646363;
 @media screen and (min-width: 1000px) {
   h1 {
     font-size: 5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
   }
 }
