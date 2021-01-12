@@ -734,6 +734,10 @@ input[type="submit"] {
   text-decoration: underline;
 }
 
+.contact-footer-info {
+  display: none;
+}
+
 iframe {
   margin: 2rem 4rem;
   width: 20%;
@@ -797,13 +801,27 @@ iframe {
     font-size: 2rem;
   }
   .footer-links {
-    position: absolute;
-    right: 4%;
-    bottom: 20%;
+    display: none;
   }
-  .footer-links a {
-    margin-bottom: 1rem;
-    text-decoration: underline;
+  .contact-footer-info {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contact-footer-info img {
+    height: 7vh;
+    margin-right: 3rem;
   }
   .contact-footer {
     height: 25vh;

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="72" viewBox="0 0 68 72">
+  <g id="Group_20" data-name="Group 20" transform="translate(-162 -565)">
+    <g id="Group_8" data-name="Group 8" transform="translate(12 -85)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="34" cy="36" rx="34" ry="36" transform="translate(150 650)" fill="#ebc985"/>
+    </g>
+    <g id="Icon_ionic-ios-mail" data-name="Icon ionic-ios-mail" transform="translate(176.35 582)">
+      <path id="Path_260" data-name="Path 260" d="M36.432,10.364l-8.621,8.943a.16.16,0,0,0,0,.228l6.033,6.544a1.073,1.073,0,0,1,0,1.5,1.031,1.031,0,0,1-1.474,0l-6.009-6.52a.162.162,0,0,0-.232,0l-1.466,1.518a6.394,6.394,0,0,1-4.6,1.975,6.523,6.523,0,0,1-4.7-2.032l-1.41-1.461a.162.162,0,0,0-.232,0l-6.009,6.52a1.031,1.031,0,0,1-1.474,0,1.073,1.073,0,0,1,0-1.5l6.033-6.544a.176.176,0,0,0,0-.228L3.647,10.364a.158.158,0,0,0-.272.114V28.373a2.6,2.6,0,0,0,2.564,2.611h28.2A2.6,2.6,0,0,0,36.7,28.373V10.478A.16.16,0,0,0,36.432,10.364Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_261" data-name="Path 261" d="M20.039,20.749A4.732,4.732,0,0,0,23.2,19.6L35.861,8.367a2.779,2.779,0,0,0-1.6-.492H5.824a2.76,2.76,0,0,0-1.6.492L16.891,19.6A4.731,4.731,0,0,0,20.039,20.749Z" transform="translate(0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
