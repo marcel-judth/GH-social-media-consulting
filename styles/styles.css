@@ -591,6 +591,16 @@ svg {
   margin: 4rem 0rem 0rem 10rem;
 }
 
+.contact-info p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0rem;
+}
+
 .contact-info img {
   margin-right: 2rem;
   max-width: 3rem;
@@ -658,6 +668,7 @@ svg {
 
 input[type="submit"] {
   margin-top: 4rem;
+  margin-bottom: 1rem;
   padding: 1.5rem;
   width: 70%;
   border: none;
@@ -766,10 +777,16 @@ iframe {
     margin-bottom: 1rem;
   }
   .contact-info {
-    margin: 2rem 0rem 0rem 3rem;
+    margin: 2vh 0rem 0rem 10vw;
   }
   .footer-info-text {
     margin-left: 2rem;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .contact-text {
+    top: 12%;
   }
 }
 
